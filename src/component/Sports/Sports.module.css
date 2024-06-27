@@ -1,0 +1,44 @@
+.head1{
+    font-family:fantasy;
+    padding-top: 100px;
+}
+.cards1{
+    border: 1px solid #ffffff39;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    height: 300px;
+    box-shadow: 2px 5px 8px 3px gray ;
+}
+.cards1:hover .cardBody{
+    bottom: 0;
+}
+.cardImg{
+    border-radius: 15px;
+    height: 200px;
+}
+.cardBody{
+    right: 0;
+    bottom: -100%;
+    font-size: 22px;
+    position: absolute;
+    background: rgb(0, 0, 0,0.3);
+    background-color: rgba(26, 25, 25, 0.2);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    padding-top: 220px;
+    transition: 2s;
+    border-radius: 15px;
+}
+.cardTitles{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.subTitles{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 300;
+}
