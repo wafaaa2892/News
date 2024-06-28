@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios';
 import star from '../../img/background.jpg';
 import { useEffect} from 'react';
-import { Await } from 'react-router-dom';
+// import { Await } from 'react-router-dom';
 import style from './Health.module.css';
 
 

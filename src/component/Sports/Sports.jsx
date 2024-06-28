@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios';
 import star from '../../img/pexels-camcasey-1152854.jpg';
 import { useEffect} from 'react';
-import { Await } from 'react-router-dom';
+// import { Await } from 'react-router-dom';
 import style from './Sports.module.css';
 
 
